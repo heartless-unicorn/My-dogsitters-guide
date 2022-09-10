@@ -1,0 +1,42 @@
+body {
+  background-color: #b5b5b5;
+  font-family: "Roboto";
+  color: white;
+}
+img {
+  border-radius: 20px;
+  border: 5px dashed white;
+}
+
+.tricks {
+  align-items: center;
+}
+.tricks h2 {
+  margin: 0;
+  text-transform: uppercase;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+.grid {
+  text-align: center;
+  font-size: 18px;
+}
+.grid p {
+  margin-top: 20px;
+}
+.grid p::first-letter {
+  color: #ff9cb6;
+  font-size: 30px;
+  font-weight: 700;
+}
+.animal {
+  border-top: 3px solid white;
+}
+.name {
+  font-size: 50px;
+}
+.carousel {
+  width: 60%;
+
+  padding: 10px;
+}

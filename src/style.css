@@ -14,6 +14,23 @@
 body {
   font-family: "Roboto";
 }
+footer {
+  text-align: center;
+  color: #b5b5b5;
+  font-size: 20px;
+  padding: 10px;
+}
+footer div {
+  display: flex;
+  justify-content: center;
+}
+footer a {
+  color: #f1b3c4;
+  font-size: 30px;
+}
+footer a:hover {
+  color: #f1b3c4;
+}
 .pink {
   background-color: #f1b3c4 !important;
 }
