@@ -1,3 +1,18 @@
+@media (max-width: 750px) {
+  .describe {
+    padding-top: 30px;
+  }
+  .carousel {
+    margin: 0 auto;
+  }
+  .main-info {
+    padding-top: 30px;
+    font-size: 18px;
+  }
+  .other {
+    font-size: 20px;
+  }
+}
 body {
   background-color: #b5b5b5;
   font-family: "Roboto";
@@ -39,4 +54,26 @@ img {
   width: 60%;
 
   padding: 10px;
+}
+.describe {
+  font-size: 18px;
+  text-align: center;
+  text-shadow: 1px 1px pink;
+  margin-bottom: 10px;
+}
+footer {
+  text-align: center;
+  background-color: #ff9cb6;
+  color: white;
+}
+footer div {
+  display: flex;
+  justify-content: center;
+}
+footer a {
+  color: white;
+  font-size: 30px;
+}
+footer a:hover {
+  color: white;
 }

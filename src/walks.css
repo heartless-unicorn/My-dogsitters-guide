@@ -1,0 +1,22 @@
+.container {
+  background-color: #f1b3c4;
+  color: white;
+  margin: 0;
+  width: 100%;
+}
+.rout {
+  display: inline-block;
+}
+i {
+  font-size: 30px;
+  display: inline-block;
+  padding-left: 30px;
+}
+.extra {
+  display: flex;
+  justify-content: space-evenly;
+}
+.baby {
+  display: inline;
+  margin-left: 28%;
+}
